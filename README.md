@@ -1,4 +1,4 @@
 # Rosa Rosensis
 Jacob Canter: Rosa Rosensis
 
-Critical scholalry edition with Czech and German translation and commentary
+Critical scholarly edition of the Latin text with Czech and German translation and commentary
