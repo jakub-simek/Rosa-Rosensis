@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rosa Rosensis (ed. Ryba)</title>
+            <editor>
+               <persName><forename>Bohumil</forename> <surname>Ryba</surname></persName>
+               <idno ana="hc:GNDURI">http://d-nb.info/gnd/1015049060</idno>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text ana="hc:CompleteExpression">
+      <front>
+         <pb n="8"/>
+         <cb n="1"/>
+         <lb/>
+         <docAuthor>Iacobus Canter Frisius</docAuthor>
+         <lb/>
+         <docTitle>
+            <titlePart>Rosa Rosensis.</titlePart>
+         </docTitle>
+      </front>
+      <body>         
+         <div ana="hc:Preface">
+            <lb/>
+            <head>
+               Praefatio.
+               <lb/>
+               Ad Rosenses proceres.
+            </head>
+            <p>
+               <lb rendition="hc:LeftIndent"/>Nihil fere est omnium, domini illustres, quod vel natura vel
+               <lb/>homini casus affert sic undique malum, ut non aliquid boni com<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>itetur ipsum aut saltem consequatur. Scilicet primum omnium
+               <lb/>paupertas et adversa valitudo praecipua ab omnibus ferme mor<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>talibus mala existimantur. At vero paupertatem comitatur secu<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>ritas. Unde Aquinas ille satirographus ait:
+            </p>
+            <l>
+               <lb/>Cantabit vacuus coram latrone viator.
+            </l>
+            <p>
+               <gap></gap>
+               <lb/>dum aegrotant. Nempe tunc deorum potentiam et suam agno<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>scunt imbecillitatem. Cui sententiae divus quoque apostolus Paulus 
+               <lb/>de se ipso loquens subscribit, quum ait: Dum infirmor, firmior 
+               <lb/>sum. Denique mortem vivi omnes, ut qua nihil sit peius, horre<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>scimus. Attamen si recte expendimus, multum invenire in ea pos<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>sumus boni. Quod cum permulti philosophi, tum vero maxime 
+               <lb/>Hegesias ille, quem Cicero in prima Tusculanarum memorat, os<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>tendit. Quid dicam igitur de fame, peste, ruinis, stragibus, incen<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>diis, terrae motibus, cataclysmis, quando mortem ipsam doctis<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>simi gravissimique philosophi in malis haud collocari debere cen<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>suerunt? Et est hoc sane seu dei providentia seu naturae cle<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>mentia pulcherrime comparatum. Nempe hinc in adversis quibus<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>que rebus, nisi ipsimet nobis defuerimus, paratam semper habe<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>mus consolationem: videlicet, si ad bonum, quod malo praesenti 
+               <lb/>aut adest aut ipsum consequitur, interioris hominis lumina con<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>vertamus. Sic nempe in Phaedone Platonis Socrates compedi<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>bus solutus, quum pruriens sibi crus leviter perfricaret, deum ait 
+               <lb/>voluptatem et dolorem longissimo ab invicem intervallo, quum 
+               <lb/>omnia creavit, voluisse seiungere, ubique id semel atque iterum 
+               <lb/>frustra tentaverat, iratum confudisse utraque et inseparabiliter mi<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>scuisse. Atque hinc esse, quod dolor a voluptate et a dolore rur<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>sum voluptas excipitur. Scilicet id est, quod Venusinus voluit 
+               <lb/>dicere poeta, quum ait: 
+            </p>
+            <l>
+               <lb/>nihil est ab omni 
+            </l>
+            <l>
+               <lb/>Parte beatum.
+            </l>
+            <pb n="9"/>
+            <cb n="1"/>
+            <p>
+               <lb/>Quod equidem sic utcunque convertero: nihil est ab omni par<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>te molestum. Hinc itaque, ut praefatus sum, omnes fortunae in<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>iurias vincimus et dolores facile, quicunque eveniunt, lenimus. 
+               <lb/>Huiusmodi nempe remediis scatet Seneca et ex neotericis plenus 
+               <lb/>est Franciscus ille cognomento Petrarcha. Enimvero quid homi<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>nes hos memoro, qui fuere mortales, – mortui enim sunt, –
+               <lb break="no"/>quum heroes diique etiam ipsi immortales hoc consolationis ge<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>nere saepenumero usi fuisse tradantur? Sic nempe apud Maro<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>nem Aeneas ad socios:
+               <quote>
+                  <lb/>Forsan 
+               </quote>
+               <lb/>inquit
+               <quote>
+                  <lb/>et haec olim meminisse iuvabit. 
+               </quote>
+               <lb/>Sic apud Nasonem Iuppiter diis plerisque aegre ferentibus, quod 
+               <lb/>diluvio genus omne mortalium vellet perdere, meliores spondet 
+               <lb/>futuros homines novos gentemque
+               <quote>
+                  <lb/>priori 
+                  <lb/>Dissimilem populo promittit origine mira.
+               </quote>
+            </p>
+            <p>
+               <lb/>Sed nunc haec tandem, quo volebam, praefatio pervenit. 
+               <lb/>Fuit sane miserabile atque calamitosum Asiae Troianum excidi<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>um, at Europae idem perutile atque optabile fuit. Non dico Grae<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>ciae, quae et ipsa Europae est bona pars, quin Latio, inquam, 
+               <lb/>quod ex Troiae incendio atque ruinis maximam, quaecunque in 
+               <lb/>ipso est aut fuit unquam, claritudinem hausit indeque desump<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>tam in exteras ac barbaras usque nationes propagavit. Et ob hoc 
+               <lb break="no"/>sane ipsum tolerabilior visa est Veneri desolatio Troiae, quod Ili<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>acam nobilitatem ampliorem fore hac occasione sperabat. Ergo 
+               <lb break="no"/>ipsa ad Iovem parentem
+               <quote>
+                  <lb/>Certe hinc Romanos olim volventibus annis 
+                  <lb/>Pollicitus 
+               </quote>
+               <lb/>et post pauca 
+               <quote>
+                  <lb/>Hoc equidem
+               </quote>
+               <lb/>ait
+               <quote>
+                  <lb/>occasum Troiae tristisque ruinas 
+                  <lb/>Solabar fatis contraria fata rependens.
+               </quote>
+               <lb/>Et profecto quidem hinc, si Maroni, Ovidio, Livio, Sallustio aliis<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>que clarissimis vatibus et historicis credimus, Romana pleraque 
+               <lb/>omnis nobilitas defluxit. Quae varie quidem exinde originis suae 
+               <lb/>memoriam servavit. Nam pars nomina imitata est Troiana, ut 
+               <lb/>Sergiorum Clodiorumque familiae, quas ab Sergesto et Cloantho 
+               <lb/>Troianis nemo deductas ambigit, ut Iuppiter quoque apud Maro<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>nem cum Venere colloquens atque arcana eidem pandens fata 
+               <quote>
+                  <lb/>Iulius
+               </quote>
+               <lb/>inquit
+               <quote>
+                  <lb/>a magno demissum nomen Iulo.
+               </quote>
+               <pb n="10"/>
+               <cb n="1"/>
+               <lb/>Pars vero aliis nec obscurioribus tamen indiciis Troianum etiam 
+               <lb/>nunc sanguinem testatur.
+            </p>
+            <p>
+               <lb/>Quod in vestra quidem, illustres domini, Rosensi familia luce 
+               <lb/>clarius apparet, quae ab Ursinis Romanorum nobilissimis proce<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>ribus orta ab Ilio atque ab Venere ipsa, si altissime repetamus, 
+               <lb/>haud dubie originem capit. Nam, ut alia omnia omittam, eviden<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>tissime hoc liquet ex pulcherrimo armorum vestrorum insigni, 
+               <lb/>quod absque omni controversia Veneris proprium ac peculiare 
+               <lb/>censetur. Ut enim Phoebo laurus, olea Palladi, Herculi populus 
+               <lb/>aliaeque aut arbores aut herbae aliis sunt numinibus sacrae, sic 
+               <lb/>almae Veneri ex arboribus myrtus atque ex floribus est rosa di<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>cata. Quae primum quidem candida tantum unde orta sit et qua 
+               <lb/>ratione postea rubuerit, quo pacto item ad genus vestrum per<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>venerit, quoniam in opusculo sequenti Charilaus noster omnia 
+               <lb/>explanabit, nunc equidem consulto praetereo obsecrans, ut ea ma<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>gnitudines vestrae ex ipso poëmate recognoscere potius dignentur.
+            </p>
+            <p>
+               <lb rendition="hc:LeftIndent"/>Offendetis obiter et alia quaedam lectu, ni fallor, haud iniu<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>cunda. Quod si qua etiam licentius dicta videbuntur, facilitati meae 
+               <lb/>pro ingenii vestri amoenitate, precor, ignoscite et, si rei dignita<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>tem verbis minus aequavi, attamen obsecro hanc lucubratiunculam 
+               <lb/>ob ingentem animi quidem mei erga vos observantiam benigna 
+               <lb/>velitis fronte suscipere et me poëtam vestrum qualemcunque vobis 
+               <lb/>nihilominus pro mansuetudine vestra commendatum habere, qui 
+               <lb/>nihil libentius, nihil iucundius, nihil denique studiosius, quam 
+               <lb/>quod rosam praecipuum veris atque Veneris decus, celebret, scribo.
+            </p>
+            <closer>
+               <salute>
+                  <lb/>Valete, ut qui optime.
+               </salute>
+               <lb/>Ex coenobio Coronae IIII. Nonas Maii.
+            </closer>
+         </div>
+         <div ana="hc:Abstract">
+            <head>
+               <lb rendition="hc:Centered"/>Argumentum.
+            </head>
+            <p>
+               <lb rendition="hc:LeftIndent"/>Eutychus adolescens Calliroën Charilai regis filiam e campo 
+               <lb/>redeuntem, quam unice deperibat, osculatur. A regiis inde satel<metamark ana="hc:Hyphen">-</metamark>
+               <lb break="no"/>litibus capitur et, quanquam regina sumi de eo supplicium velle 
+               <lb/>astu tamen et clementia puellae, favente etiam rege, liberatur.
+            </p>
+         </div>
+         <castList>
+            <head>
+               <lb rendition="hc:Centered"/>Personae.
+            </head>
+            <castItem>
+               <role><lb/>Charilaus</role> 
+               <roleDesc><milestone ana="hc:LineSegmentBeginning"/>rex</roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Nicostrata</role> 
+               <roleDesc><milestone ana="hc:LineSegmentBeginning"/>regina</roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Calliroe</role> 
+               <roleDesc><milestone ana="hc:LineSegmentBeginning"/>regis gnata</roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Clymene</role> 
+               <roleDesc><milestone ana="hc:LineSegmentBeginning"/>anus nutrix</roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Eutychus</role> 
+               <roleDesc><milestone ana="hc:LineSegmentBeginning"/>amator Calliroës</roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Eurybates</role> 
+               <roleDesc>satellites regii</roleDesc> <!-- Layout -->
+            </castItem>
+            <castItem>
+               <role><lb/>Phoenix</role> 
+               <roleDesc></roleDesc>
+            </castItem>
+            <castItem>
+               <role><lb/>Talthybius</role> 
+               <roleDesc></roleDesc>
+            </castItem>
+         </castList>
+         <pb n="11"/>
+         <cb n="1"/>
+         <div ana="hc:Poem">
+            <head>
+               <lb rendition="hc:Centered"/>Rosa Rosensis.
+            </head>
+            <sp>
+               <speaker><lb/>Calliroe</speaker>
+               <l n="1"><lb/>Mater, ut in campum mihi sit fas, oro, parumper</l>
+               <l n="2"><lb/>Ire et post hiemis requiem longam exspatiari,</l>
+               <l n="3"><lb/>Mitior a Zephyro quum iam venit aura colores</l>
+               <l n="4"><lb/>Floribus aspirans varios quumque ipsa virescit</l>
+               <l n="5"><lb/>Omniparens glacie tellus nivibusque solutis.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="6"><lb/>Si tibi cara magis sum floribus, annuus affert</l>
+               <l n="7"><lb/>Quos Zephyrus, quum vere novo flat, nata, penes me</l>
+               <l n="8"><lb/>Hic potius maneas nec solam, quaeso, relinque!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Calliroe</speaker>
+               <l n="9"><lb/>Floribus et melius quodcunque iis gignere terra</l>
+               <l n="10"><lb/>Alma potest, genitrix, mihi longe es carior. At nunc</l>
+               <l n="11"><lb/>Haud equidem hinc abiens te solam, parce, relinquo.</l>
+               <l n="12"><lb/>Nam meus, en, tecum genitor manet isque facetus</l>
+               <l n="13"><lb/>Colloquiis te hinc more suo oblectabit amoenis.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="14"><lb/>Recte ait. Abscedat sed nunc, sine! Ludere gestit</l>
+               <l n="15"><lb/>Haec aetas. Studium et tibi, coniunx, hoc fuit olim.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="16"><lb/>Vade igitur! Gressus dominae, tu, sedula verum</l>
+               <l n="17"><lb/>Subsequere et nusquam, Clymene, discedito ab ipsa!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Clymene</speaker>
+               <l n="18">Sollicita non sic vestigia mente ferarum</l>
+               <l n="19">Venator sequitur, regina, atque hanc ego servo.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="20"><lb/>Ite, agite et varias reduces mihi ferte coronas!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Calliroe</speaker>
+               <l n="21"><lb/>Id fiet, genitrix, nisi nos sententia fallet.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="22"><lb/>Mirum, virginibus qui tanta est cura tenellis</l>
+               <l n="23"><lb/>Et studium florum, ceu, quae de frondibus Hyblae</l>
+               <l n="24"><lb/>Mella legunt, apibus, Cecropis vel florea rura</l>
+               <l n="25"><lb/>Pervolitant! Genus ex ipsis an forte putandum est</l>
+               <l n="26"><lb/>Virgineum? Studia iis nam sunt communia certe.</l>
+               <l n="27"><lb/>Ut quando Oenopiam formicae dira peremit</l>
+               <l n="28"><lb/>Pestis mutatae sumpsisse humana feruntur</l>
+               <l n="29"><lb/>Rege Asopiade cum membris ora, priores</l>
+               <l n="30"><lb/>Nec tamen iccirco mores cum vultibus agmen</l>
+               <l n="31"><lb/>Frugilegum pariter mutavit, quin, velut ante,</l>
+               <l n="32"><lb/>Myrmidoni est studium populo Cereris: tenet ex re</l>
+               <pb n="12"/>
+               <cb n="1"/>
+               <l n="33"><lb/>Qui nomen, nam curat agros memor inque futurum</l>
+               <l n="34"><lb/>Haud longa torpere sinit sua membra quiete,</l>
+               <l n="35"><lb/>Quin victu modico contentus plura paratque et</l>
+               <l n="36"><lb/>Parta tenet semperque refert suae originis instar.</l>
+               <l n="37"><lb/>An contra est, ut apes sint ex virginibus? Inde et</l>
+               <l n="38"><lb/>Forte eius memores quod consuevere, puellae</l>
+               <l n="39"><lb/>Dum fuerant, quoque nunc incumbere floribus ardent.</l>
+               <l n="40"><lb/>Haud aliter, quam quae fertur mutasse figuram,</l>
+               <l n="41"><lb/>Armiferae quod se ausa fuit praeferre Minervae,</l>
+               <l n="42"><lb/>Idmonis: e summa suspensa ut aranea facta est</l>
+               <l n="43"><lb/>Nam trabe, primaevum ad mox est conversa laborem.</l>
+               <l n="44"><lb/>Quodque est inde genus deductum, nunc quoque texit,</l>
+               <l n="45"><lb/>Virginis assidue studiumque imitatur Arachnes.</l>
+               <l n="46"><lb/>Sed cedo, quae tua nam super iis sententia, coniunx,</l>
+               <l n="47"><lb/>Utrum horum alterius videatur origo fuisse?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="48"><lb/>Virgineum haud genus ex apibus nec apes puto natas</l>
+               <l n="49"><lb/>Virginibus, quanquam multa iis communia certe</l>
+               <l n="50"><lb/>Sint, coniunx, et plura etiam, quam tu memoraris.</l>
+               <l n="51"><lb/>Praeter enim id, quod amant flores et florea rura,</l>
+               <l n="52"><lb/>Dulcificum est utrumque genus, nam mella parant hae,</l>
+               <l n="53"><lb/>Illae dulci animos tingunt et corpora amantum</l>
+               <l n="54"><lb/>Ambrosiam vincit quod et Attica nectare mella.</l>
+               <l n="55"><lb/>Quin etiam simili mel corporis in regione</l>
+               <l n="56"><lb/>Haeque illaeque gerunt –</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="57"><lb/>Ergo dicturus, rex, quicquid, semper ineptus</l>
+               <l n="58"><lb/>More tuo es. Nostra hic equidem quod filia non est,</l>
+               <l n="59"><lb/>Gaudeo, quod quae de melle haec tam dicis inepta,</l>
+               <l n="60"><lb/>Non audit, verbis ne parva his inficiatur,</l>
+               <l n="61"><lb/>Gustare ut cupiat mel, quod super Attica laudas.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="62"><lb/>Ne dubita, natura monet: non audiat, ipsa</l>
+               <l n="63"><lb/>Ex sese, quanquam haec, sensim tamen omnia discet,</l>
+               <l n="64"><lb/>Nanque rei in venis doctor penitisque medullis</l>
+               <l n="65"><lb/>Est huius: crescit corpus crescitque voluptas,</l>
+               <l n="66"><lb/>Augescit pariter cumque annis saeva libido.</l>
+               <l n="67"><lb/>Quin etiam ante diem multae stimulantur amore,</l>
+               <l n="68"><lb/>Praecipue, quibus est fortuna opulentior. Ipsa</l>
+               <l n="69"><lb/>Praecox nempe venit domibus plerunque superbis</l>
+               <l n="70"><lb/>Alma Venus. Tunicas prima ut vix stringere pubes</l>
+               <l n="71"><lb/>Incipit, actutum pruritus in inguina serpit</l>
+               <l n="72"><lb/>Exstimulatque ardens tentigo uiscera, saepe et</l>
+               <l n="73"><lb/>Quaeritur hinc ratio, qua sedari queat ardor.</l>
+               <l n="74"><lb/>Scilicet hoc miscent effrena licentia virus</l>
+               <l n="75"><lb/>Deliciaeque animis molles in mollia pronis.</l>
+               <pb n="13"/>
+               <cb n="1"/>
+               <l n="76"><lb/>Quodsi qua est, pulchrae Veneris quae ad munera venit</l>
+               <l n="77"><lb/>Serius, haec tanquam neglecti temporis ipsam</l>
+               <l n="78"><lb/>Poeniteat! Numero sapiens sua damna rependit,</l>
+               <l n="79"><lb/>Curat et, amissum ut tempus sibi copia reddat.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="80"><lb/>Si nostro tandem generi convicia abunde</l>
+               <l n="81"><lb/>Dixisti, fac expedias, quod te ante rogavi.</l>
+               <l n="82"><lb/>Atque equidem, nisi nunc id mallem audire, vicissim</l>
+               <l n="83"><lb/>Ingenium et mores possem vestros memorare.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="84"><lb/>Expediam prius hoc; naturam deinde virorum</l>
+               <l n="85"><lb/>Te narrante erit haud mihi parva audire voluptas.</l>
+               <l n="86"><lb/>Occulta est ratio id praemonstrans quodque futurum,</l>
+               <l n="87"><lb/>Virginibus teneris ut carpere mos sit ab annis</l>
+               <l n="88"><lb/>Flores: mutati quia sunt miserantibus ipsis</l>
+               <l n="89"><lb/>Divis in flores iuvenes, pulcherrima quondam</l>
+               <l n="90"><lb/>Corpora. Qui partim, vivis id quod fuit ante,</l>
+               <l n="91"><lb/>Nomen herile tenent etiam nunc; tempore partim</l>
+               <l n="92"><lb/>Amisere, vides aetate ut multa aboleri.</l>
+               <l n="93"><lb/>Sic Crocus a flava dilectus Smilace flori</l>
+               <l n="94"><lb/>Imposuit nomen, quod flos is nunc quoque seruat.</l>
+               <l n="95"><lb/>Sic dedit et nomen flori moriens Hyacinthus,</l>
+               <l n="96"><lb/>Intonso carus quondam super omnia Phoebo;</l>
+               <l n="97"><lb/>Cuius inest foliis etiam nunc littera, luctus</l>
+               <l n="98"><lb/>Testis Apollinei, pueri de nomine sumpta.</l>
+               <l n="99"><lb/>Versus et in florem post hunc perhibetur eundem,</l>
+               <l n="100"><lb/>Aeacidae pro armis qui praestantissimus heros</l>
+               <l n="101"><lb/>Iudicio certans a docto est victus Ulixe.</l>
+               <l n="102"><lb/>llle etiam, fuerat Veneris qui maxima cura,</l>
+               <l n="103"><lb/>Quem monuit Cytherea feras vitare feroces,</l>
+               <l n="104"><lb/>In florem est versus quondam iuvenis Cinyreius.</l>
+               <l n="105"><lb/>Quid? Se nosse fuit iuvenis cui maxima pestis?</l>
+               <l n="106"><lb/>Nempe sui infelix periit dum ipsius amore.</l>
+               <l n="107"><lb/>In liquido postquam conspexit fonte seipsum,</l>
+               <l n="108"><lb/>Purpureum in florem fato mutatus eodem est.</l>
+               <l n="109"><lb/>Sicque alii, quorum memorare est nomina longum,</l>
+               <l n="110"><lb/>Ornavere novis heroës floribus olim</l>
+               <l n="111"><lb/>Multi prata, vides tepido quos vere colorem</l>
+               <l n="112"><lb/>Quenque referre suum, quando hos in luminis auras</l>
+               <l n="113"><lb/>Aureus educit Sol, quae sunt, cuncta gubernans.</l>
+               <l n="114"><lb/>Hinc, adeo hinc amor est, coniunx, studiumque puellis</l>
+               <l n="115"><lb/>Florum. Rebus enim in parvis natura latenter</l>
+               <l n="116"><lb/>Praeludit, vitae et praemonstrat signa futurae.</l>
+               <l n="117"><lb/>Sic, qui Vulcani maior contendit ad artes,</l>
+               <l n="118"><lb/>Parvus adhuc folles et cum fornacibus ignes</l>
+               <l n="119"><lb/>Tractat, malleolos durisque incudibus aptat</l>
+               <l n="120"><lb/>Et, si non aliud, tinnitu gaudet inani.</l>
+               <pb n="14"/>
+               <cb n="1"/>
+               <l n="121"><lb/>Sic etiam accendit quem saevi gloria Martis,</l>
+               <l n="122"><lb/>Cum pueris puer exorditur proelia, laetus</l>
+               <l n="123"><lb/>Atque interposita vectatur arundine parvis</l>
+               <l n="124"><lb/>Cruribus, insideat Centauri ut terga biformis.</l>
+               <l n="125"><lb/>Nec minus, ad Paphiae luxum quae deliciasque</l>
+               <l n="126"><lb/>Crescunt: iam teneris vitae argumenta sub annis</l>
+               <l n="127"><lb/>Edunt, quum flores decerpunt, posterioris.</l>
+               <l n="128"><lb/>Contrectare etenim delectat, carpere et id, quod</l>
+               <l n="129"><lb/>E pulchris iuvenum membris mutasse figuram</l>
+               <l n="130"><lb/>Constat, rerum ignara etsi hoc ea nesciat aetas,</l>
+               <l n="131"><lb/>Ceu quondam pupas fingunt imitamina parvas</l>
+               <l n="132"><lb/>Infantum et cunis agitant crepitantibus ipsas</l>
+               <l n="133"><lb/>Et dormire velut pueros per carmina suadent;</l>
+               <l n="134"><lb/>Ast ubi iam sensim cum tempore mens quoque crevit,</l>
+               <l n="135"><lb/>Tum certe iuvenes viventes tangere multo</l>
+               <l n="136"><lb/>Plus iuvat et pueris operam navare creandis</l>
+               <l n="137"><lb/>Veris: exempla ante oculos sunt tanta, necesse ut</l>
+               <l n="138"><lb/>Arguta haud credam ratione in re manifesta.</l>
+               <l n="139"><lb/>Quodsi forte velim per nomina pergere, luco</l>
+               <l n="140"><lb/>Quot sunt Dodonae glandes, prius enumerarem</l>
+               <l n="141"><lb/>Aut quot per Libycas angues labuntur arenas.</l>
+               <l n="142"><lb/>Hos igitur flores postquam cognosse puellae</l>
+               <l n="143"><lb/>Incipiunt, ut apes iuga per florentis Hymetti,</l>
+               <l n="144"><lb/>Advolitant, libant, exsugunt atque susurris</l>
+               <l n="145"><lb/>Dulcibus hos mulcent captantes murmure blando.</l>
+               <l n="146"><lb/>Saepe graves luctus brevia et post gaudia miscent,</l>
+               <l n="147"><lb/>Sicut apes stimulum capienti mella relinquunt.</l>
+               <l n="148"><lb/>Huic censum exsuxit patrium, huic femina vires,</l>
+               <l n="149"><lb/>Huic vitam et rebus famam cunctis meliorem.</l>
+               <l n="150"><lb/>Mitius at sane flores exsugit apis: mel</l>
+               <l n="151"><lb/>Absque malo ipsorum nanque extrahit, avolat et mox;</l>
+               <l n="152"><lb/>At vos iuvenibus violentae haeretis, ut olim</l>
+               <l n="153"><lb/>Non missura cutem nisi plena cruoris hirudo,</l>
+               <l n="154"><lb/>Et supra vires nonnunquam cogitis ipsos;</l>
+               <l n="155"><lb/>Quod si et forte parum iuvenis iam sufficit unus,</l>
+               <l n="156"><lb/>Queritur alter et hunc post tertius instar apum, quae</l>
+               <l n="157"><lb/>Mille die tentant uno per rosida flores.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="158"><lb/>Obscenis iterum sermonem cludis, ut ante,</l>
+               <l n="159"><lb/>Verbis, imo, ut semper, cursu et pergis eodem.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="160"><lb/>Obscenum semper ne me dicas, age iam nunc</l>
+               <l n="161"><lb/>Aurem utranque adhibe: mirabere me, scio, coniunx.</l>
+               <l n="162"><lb/>Res nempe humanas hinc iam divina relinquo</l>
+               <l n="163"><lb/>Dicturus. Flores equidem tibi commemoravi,</l>
+               <l n="164"><lb/>Corporibus qui sunt versi ex mortalibus. At nunc</l>
+               <l n="165"><lb/>Semine divino natus qui est, accipe florem.</l>
+               <pb n="15"/>
+               <cb n="1"/>
+               <l n="166"><lb/>Altius ordiri verum est opus. Arrige porro,</l>
+               <l n="167"><lb/>Arrige, dico, aures: tibi sic faveat Cytherea.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="168"><lb/>Dic modo tu, quod vis! En, utraque mi patet auris.</l>             
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="169"><lb/>Aurea Saturnus fluxerunt saecula sub quo</l>
+               <l n="170"><lb/>Ille suo testes patri exsecuisse putatur</l>
+               <l n="171"><lb/>Spes foret ut prolis geminos haud ulterioris.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="172"><lb/>Belle hercle exorsus: sit finis nempe futurus</l>
+               <l n="173"><lb/>Principio qualis das hoc cognoscere belle.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="174"><lb/>Hinc sane ordiri modo sic me res iubet ipsa.</l>
+               <l n="175"><lb/>Sed sine, perveniam dum, quo volo pergere, tantum!</l>
+               <l n="176"><lb/>Falce vides statuas Saturni en undique templis</l>
+               <l n="177"><lb/>Armatas, patri quia testes falce rescidit.</l>
+               <l n="178"><lb/>Et quod Siciliae abiecta haec narratur in oras</l>
+               <l n="179"><lb/>Falx, Drepanum iccirco Trinacria nominat urbem.</l>
+               <l n="180"><lb/>Sanguine Saturnus membra hinc manantia Caeli</l>
+               <l n="181"><lb/>In mare proiecit. Spumis cruor inde marinis</l>
+               <l n="182"><lb/>Mixtus, Alexandro quae natam iudice vicit</l>
+               <l n="183"><lb/>Et Iovis uxorem, genuit Cythereida, lato</l>
+               <l n="184"><lb/>Qua non est quicquam mundo formosius usquam.</l>
+               <l n="185"><lb/>Ergo quod est spumis Venus edita, nomen ab ipsa</l>
+               <l n="186"><lb/>Re divae impositum est: Aphroditis nempe vocatur.</l>
+               <l n="187"><lb/>Contemplata igitur vasti faciem dea ponti,</l>
+               <l n="188"><lb/>Quum procul excelsas urbes et culta videt, mox</l>
+               <l n="189"><lb/>Terras alma petit et concha vecta marina,</l>
+               <l n="190"><lb/>Neptuno pariter Zephyro pariterque iuvante,</l>
+               <l n="191"><lb/>Haud mora, proximum erat quod, diva in litore Cypri</l>
+               <l n="192"><lb/>Constitit et, spumis ut erat nans oblita, corpus</l>
+               <l n="193"><lb/>Extersit: Paphiae sacris spumae artubus actae et</l>
+               <l n="194"><lb/>Mox sumunt florum faciem servantque colorem</l>
+               <l n="195"><lb/>Et crispae, velut ante, manent. Cypriae quoque flos nunc</l>
+               <l n="196"><lb/>Est rosa, de spumis sic edita nempe sacratis,</l>
+               <l n="197"><lb/>Candida, crispa, fragrans sancto de corpore divae.</l>
+               <l n="198"><lb/>Sic quondam, sacris si fas est impia rebus</l>
+               <l n="199"><lb/>Conferre, ex spumis, quas Cerberus ore trifauci</l>
+               <l n="200"><lb/>Edidit, Herculea superas extractus in auras</l>
+               <l n="201"><lb/>Dextra, sunt tristes, miscent quae aconita novercae.</l>
+               <l n="202"><lb/>Diva sed ipsa suum florem hinc deliberat, omni</l>
+               <l n="203"><lb/>Ex hominum numero cuinam daret, inter et omnis</l>
+               <l n="204"><lb/>Solus eo visus mortales dignus honore</l>
+               <l n="205"><lb/>Troius Anchises, Phrygiae radicibus Idae</l>
+               <l n="206"><lb/>Cuius in amplexus Venus est dignata venire</l>
+               <pb n="16"/>
+               <cb n="1"/>
+               <l n="207"><lb/>Mortalemque pati dea, mixtus sanguis ut inde</l>
+               <l n="208"><lb/>Progeniem matri similem quandoque referret.</l>
+               <l n="209"><lb/>Huic Cytherea rosam divini pignus amoris</l>
+               <l n="210"><lb/>Alma dedit. Venerans acceptum protinus ille</l>
+               <l n="211"><lb/>Munus honore colit merito festisque diebus</l>
+               <l n="212"><lb/>Fert insigne rosas Veneris frontem iisque coronat.</l>
+               <l n="213"><lb/>Mox etiam mensis, fierent convivia laeta</l>
+               <l n="214"><lb/>Quo magis, instituit florem hunc adhibere: manet nunc</l>
+               <l n="215"><lb/>Is quoque mos mensis, nam nunc quoque vina coronis</l>
+               <l n="216"><lb/>Cingimus e Veneris flore. Hinc etiam addidit armis</l>
+               <l n="217"><lb/>Et clipeo galeaque rosam gestavit. Ab illo</l>
+               <l n="218"><lb/>Sumpsit et Aeneas armorum insigne, nepotes</l>
+               <l n="219"><lb/>Inque suos porro hoc gestandum tradidit heros.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="220"><lb/>Unde igitur rubra est aut cuius numinis ipsa</l>
+               <l n="221"><lb/>Flos, quae nempe rosa multo est praestantior alba,</l>
+               <l n="222"><lb/>Purpureo Aurorae nascentis tincta colore,</l>
+               <l n="223"><lb/>Quaque modo Aeneadae plerique utuntur in armis?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="224"><lb/>Ipsa quoque est Veneris, multo et praestantior alba,</l>
+               <l n="225"><lb/>Ut dicis, fateor, nam divae sanguine tincta</l>
+               <l n="226"><lb/>Mutavit faciem servatque exinde ruborem.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="227"><lb/>Impius esse cave, dum vis argutus haberi,</l>
+               <l n="228"><lb/>O dulcis coniunx, nec te patientia fallat</l>
+               <l n="229"><lb/>Divorum: gravius feriunt, quo lentius. Atqui</l>
+               <l n="230"><lb/>Laedi equidem nulla vi credo numina posse.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="231"><lb/>Nescio laedantur necne, sed vulnera certe</l>
+               <l n="232"><lb/>Accipiunt. Vulgatum est nempe ad moenia Troiae</l>
+               <l n="233"><lb/>Martem Tydidae pugnantem cuspide fixum</l>
+               <l n="234"><lb/>Exclamasse, hominum quantum bis milia quinque</l>
+               <l n="235"><lb/>Haud possent, Danai tremerent ut Dardaniique</l>
+               <l n="236"><lb/>Utque Ida et Xanthus quaterentur, vulneris unde</l>
+               <l n="237"><lb/>– Integra sed sanctis sua sit reverentia divis –</l>
+               <l n="238"><lb/>Coniectare vales ipsum sensisse dolorem.</l>
+               <l n="239"><lb/>Uranius vero non est modo vulnere laesus,</l>
+               <l n="240"><lb/>Quin mutilus membris atque intestabilis exstat.</l>
+               <l n="241"><lb/>Iam, qui tela Iovi fabricat, deiectus Olympo,</l>
+               <l n="242"><lb/>Visus deformi nimium quod fronte fuisset,</l>
+               <l n="243"><lb/>Fregit crura cadens graditurque haud passibus aequis</l>
+               <l n="244"><lb/>Nunc etiam veterisque refert insignia lapsus.</l>
+               <l n="245"><lb/>Ergo pati credis si divos vulnera posse,</l>
+               <l n="246"><lb/>Exsequar, incepi Cythereae quod modo vulnus,</l>
+               <l n="247"><lb/>Clara rosae ut tandem rubrae dicatur origo.</l>
+            </sp>
+            <pb n="17"/>
+            <cb n="1"/>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="248"><lb/>Credo equidem exemplis persuasa iis, quae memorasti,</l>
+               <l n="249"><lb/>Nec minus admiror, potuit tam ferreus esse</l>
+               <l n="250"><lb/>Quis nam, sacratum divae ut corpus violaret.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="251"><lb/>Ah, violat quid non, coniunx, furor impius atque</l>
+               <l n="252"><lb/>Improbitas hominum, sacri quibus estque profani</l>
+               <l n="253"><lb/>Discrimen nullum, quum mentem insania privat</l>
+               <l n="254"><lb/>Lumine et in tenebris raptat vertigine caeca!</l>
+               <l n="255"><lb/>Martius ac veluti si humano saeva cruore</l>
+               <l n="256"><lb/>Imbuit ora lupus, post id iam vilia ducit,</l>
+               <l n="257"><lb/>Quae vel habent silvae vel habent quae animalia campi,</l>
+               <l n="258"><lb/>Ardet et humani, quod visus dulcior esse,</l>
+               <l n="259"><lb/>Sanguinis inde siti, trivia et mox compita canus</l>
+               <l n="260"><lb/>Obsidet et lacerat, quisquis forte obvius exit:</l>
+               <l n="261"><lb/>Sic ubi sacrilegas divino sanguine demens</l>
+               <l n="262"><lb/>Polluit ipse manus, sacra et temerare deorum</l>
+               <l n="263"><lb/>Corpora Tydides semel est quae non licet ausus</l>
+               <l n="264"><lb/>Tangere mortali, contentus non fuit una</l>
+               <l n="265"><lb/>Impietate furens, cumulat sceleri scelus immo.</l>
+               <l n="266"><lb/>Forte etenim inciderat pugnans in magnanimum, quo</l>
+               <l n="267"><lb/>Nec pietate fuit nec quisquam illustrior armis,</l>
+               <l n="268"><lb/>Aenean. Totis librans et viribus hastam</l>
+               <l n="269"><lb/>Letiferum contra venienti infligere vulnus</l>
+               <l n="270"><lb/>Certum habet. Extremo nati verum ipsa periclo</l>
+               <l n="271"><lb/>Adfuit alma Venus, campo et testata patenti est</l>
+               <l n="272"><lb/>Se matrem Aeneae. Crudo nanque obvia telo</l>
+               <l n="273"><lb/>Obstitit, ut propriae nimium et fidens deitati,</l>
+               <l n="274"><lb/>Opposuit dextram, ferro ne qui foret auctor</l>
+               <l n="275"><lb/>Ante diem caderet Romanae nobilitatis</l>
+               <l n="276"><lb/>Hostili, unde ducum clarorum copia tanta,</l>
+               <l n="277"><lb/>Caesarum et, aequa deis olim foret unde propago.</l>
+               <l n="278"><lb/>Ortos hinc Fabios, hinc tradunt nempe Camillos</l>
+               <l n="279"><lb/>Et Curios, Decios, Serranos Fabriciosque et</l>
+               <l n="280"><lb/>Scipiadas geminos creperi duo fulmina belli</l>
+               <l n="281"><lb/>Ursinosque domi praeclaros militiaeque,</l>
+               <l n="282"><lb/>Semper et ardentes patriae communis amore,</l>
+               <l n="283"><lb/>Quorum etiam extremum virtus penetravit in orbem</l>
+               <l n="284"><lb/>Dardaniumque genus deduxit stemmate certo,</l>
+               <l n="285"><lb/>Flore notans Veneris clipeos galeasque rubenti.</l>
+               <l n="286"><lb/>Ergo ut servaret sobolis Cytherea parentem</l>
+               <l n="287"><lb/>Tam clarae, ipsa suum caput obiectare periclo</l>
+               <l n="288"><lb/>Haud dubitans indigna tulit tantae pietatis</l>
+               <l n="289"><lb/>Praemia. Debuerat nam quo periisse sub ictu</l>
+               <l n="290"><lb/>Gnatus, mater eo confixa est. Floribus at mox,</l>
+               <l n="291"><lb/>Quae semper Venerem Charites comitantur euntem,</l>
+               <l n="292"><lb/>Certatim niveis manantia vulnera complent,</l>
+               <pb n="18"/>
+               <cb n="1"/>
+               <l n="293"><lb/>Ne sacer in terras stillaret sanguis, ab illo et</l>
+               <l n="294"><lb/>Tempore purpureum traxit rosa nempe colorem</l>
+               <l n="295"><lb/>Tincta deae sacro candensque imbuta cruore.</l>
+               <l n="296"><lb/>Et servat, quaecunque genus deducit ab illis,</l>
+               <l n="297"><lb/>Vulnera nunc etiam, fovit quibus alma Dione.</l>
+               <l n="298"><lb/>Sic morus, quondam niveos quae habuisse putatur</l>
+               <l n="299"><lb/>Foetus, sanguinea ex aspergine fert modo poma</l>
+               <l n="300"><lb/>Sanguinis humani, quum Thisben Pyramus atro</l>
+               <l n="301"><lb/>Dente ferae periisse putans sua pectora fixit.</l>
+               <l n="302"><lb/>Transtulit hinc Troius monimentum ingens pietatis</l>
+               <l n="303"><lb/>In clipeum Aeneas, rosa candida cui fuit ante</l>
+               <l n="304"><lb/>Insigne armorum, clipei quum tota rubebat</l>
+               <l n="305"><lb/>Planicies (color hic nam creditus olim</l>
+               <l n="306"><lb/>Conveniens Marti: tunicas sic nempe Lycurgus</l>
+               <l n="307"><lb/>Arma super docuit Spartanos ferre rubentes,</l>
+               <l n="308"><lb/>Conspicuus foret ut sanguis minus). Ergo colorem</l>
+               <l n="309"><lb/>Dat niveum clipeo, quo flos prius ipse nitebat,</l>
+               <l n="310"><lb/>Clarius ut nuper de sanguine facta parentis</l>
+               <l n="311"><lb/>Purpurea impingi posset rosa sicque prioris</l>
+               <l n="312"><lb/>Non etiam fieret floris tamen immemor unquam.</l>
+               <l n="313"><lb/>Nanque tenet clipeus, quo flos fuit ante, colorem</l>
+               <l n="314"><lb/>Candidus inque pii testis rosa vulneris ipso est</l>
+               <l n="315"><lb/>Purpurea. Hinc adeo pervenit adusque nepotes,</l>
+               <l n="316"><lb/>Sanguine ab Aeneae quibus est deducta propago.</l>
+               <l n="317"><lb/>Insigni pugnans ut quo fortissimus heros</l>
+               <l n="318"><lb/>Est usus; memores quoque nunc utantur eodem!</l>
+               <l n="319"><lb/>Sic nempe Ursini Romae, sic ii, quibus inde</l>
+               <l n="320"><lb/>Est genus, a Roseo nomen Germania monte</l>
+               <l n="321"><lb/>Dat quibus, Hercyniae et dominos quos pars bona silvae</l>
+               <l n="322"><lb/>Agnoscit, veneratur, amat virtute regentes</l>
+               <l n="323"><lb/>Prisca subiectos, pietate et semper avita</l>
+               <l n="324"><lb/>Insignes, genus ut Troianum agnoscere possis.</l>
+               <l n="325"><lb/>Nunccine sed tandem, coniunx, divina utriusque</l>
+               <l n="326"><lb/>Quae sit origo, tenes an nondum forte, rosai?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="327"><lb/>Plane equidem teneo, quae de flore Cythereae</l>
+               <l n="328"><lb/>Dixisti, credoque haud esse ea cognita vulgo.</l>
+               <l n="329"><lb/>Sed quod, Iuno, malum hoc? Proh, filia currit anhelans</l>
+               <l n="330"><lb/>Et sequitur potis est nutrix quo concita passu.</l>
+               <l n="331"><lb/>Nec flores nec serta ferunt. Hoc, optime coniunx,</l>
+               <l n="332"><lb/>Quid sibi velle putas? Dic, quae sententia menti est!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="333"><lb/>Id, quod dixisti, reor: ut, quia serta nec ullos</l>
+               <l n="334"><lb/>Inveniunt flores, properi haec sit causa recursus.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="335"><lb/>Sed lacrimant ambae. Heu, vereor peiora, marite,</l>
+               <l n="336"><lb/>Ne qua sit tenerae vis forte illata puellae.</l>
+            </sp>
+            <pb n="19"/>
+            <cb n="1"/>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="337"><lb/>Quis tam mentis inops, ut nostram laedere gnatam</l>
+               <l n="338"><lb/>Ausit, ni cupiat male sanus perdere vitam?</l>
+               <l n="339"><lb/>Sed quid frustra angis te, coniunx? Quippe roganti</l>
+               <l n="340"><lb/>Ipsa tibi, siquid passa est, modo filia dicet.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="341"><lb/>Dic mihi, prima tuae et genitricis maxima cura,</l>
+               <l n="342"><lb/>Indignis quurnam tibi fletibus ora rigantur?</l>
+               <l n="343"><lb/>Quur non laeta redis ad me, mea filia? Quur non</l>
+               <l n="344"><lb/>Serta caput cingunt, gremio et quur non tibi flores?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Calliroe</speaker>
+               <l n="345"><lb/>Serta iacent capiti nostro decussa sinuque</l>
+               <l n="346"><lb/>Dispersi flores. Pudet heu: non dicere, mater,</l>
+               <l n="347"><lb/>Plura queo; occludunt pudor et dolor ora. Iubeto</l>
+               <l n="348"><lb/>Hanc tibi, quae uidit, seriatim cuncta referre.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="349"><lb/>Non leve nempe malum mihi mens praesaga futuri</l>
+               <l n="350"><lb/>Portendit, coniunx, in campum quum ire parabat</l>
+               <l n="351"><lb/>Filia, sic veluti natam ad nos quum properare huc</l>
+               <l n="352"><lb/>Vidi. Sed flores tu tantum et serta canebas.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="353"><lb/>Praesagire malum timor improbus urget amorque.</l>
+               <l n="354"><lb/>Quin modo dicat anus, quod factum est cunque, iubeto!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="355"><lb/>Dic age, sollicitis o quae sectaris alumnam</l>
+               <l n="356"><lb/>Passibus, ipsa ut ais, vero nec detrahe quicquam,</l>
+               <l n="357"><lb/>Sed quo quidque modo patratum est, sedula pande!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Clymene</speaker>
+               <l n="358"><lb/>Hoc primum, regina, precor, ne crimine nostro id,</l>
+               <l n="359"><lb/>Quod factum est, credas factum! Res ipsa docebit</l>
+               <l n="360"><lb/>Me non esse ream. Iunonis numina testor</l>
+               <l n="361"><lb/>Cuncta, quibus caelo vel terris praesidet, omni</l>
+               <l n="362"><lb/>Me vacuam culpa. Configat sic Trivia hic me</l>
+               <l n="363"><lb/>Ante tuos, regina, pedes, si fallo, sagittis;</l>
+               <l n="364"><lb/>Sic trahat in praeceps me Cerberus et modo sic me</l>
+               <l n="365"><lb/>Tisiphone raptet per canos dira capillos.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="366"><lb/>Quin age, quod iussi, Clymene, et nunc desine plura</l>
+               <l n="367"><lb/>Numina, quae noceant, si fallis, stulta, citare!</l>
+               <l n="368"><lb/>En vacuam culpa te credo. Sed incipe, quid sit,</l>
+               <l n="369"><lb/>Dicere, quod lacrimat, narrare nec audet alumna!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Clymene</speaker>
+               <l n="370"><lb/>Dicam equidem paucis, mora ne quid longior obsit.</l>
+               <l n="371"><lb/>Quum rediit, regina, sinu tua filia pleno</l>
+               <pb n="20"/>
+               <cb n="1"/>
+               <l n="372"><lb/>Floribus et sertis caput alte ornaverat atque</l>
+               <l n="373"><lb/>Iam tibi, quae dixit se afferre, ea munera gestit,</l>
+               <l n="374"><lb/>Ecce, mali haud quicquam metuentibus obvius Alphi</l>
+               <l n="375"><lb/>Eutychus advenit, ruit hinc et in oscula demens</l>
+               <l n="376"><lb/>Virginis. Haec manibus conata repellere frustra</l>
+               <l n="377"><lb/>Me vocat. Accurro. Sed quid facerem? Ilico fugit</l>
+               <l n="378"><lb/>Is nempe, ut rapta solet a stabulis lupus agna.</l>
+               <l n="379"><lb/>Haec est summa mali. Nunc, te si nosco, quod instat,</l>
+               <l n="380"><lb/>Haud opus esse puto reliquum, regina, monere.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="381"><lb/>Hac maior potuit quae tandem iniuria nostrae</l>
+               <l n="382"><lb/>Inferri natae? Nunc te, rex inclite, pignus</l>
+               <l n="383"><lb/>Per commune precor iubeas, qui ad vincula quaerant</l>
+               <l n="384"><lb/>Ad poenam et rapiant sceleratum. Sed properare</l>
+               <l n="385"><lb/>Est opus. Ipsa quidem mora nunc, ut saepe, nocebit.</l>
+               <l n="386"><lb/>Ille fugit: nos si dubitamus, nec capietur,</l>
+               <l n="387"><lb/>Quin scelere exsultans, non et punitus abibit.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="388"><lb/>Ite citi, sed non sit iter, famuli, omnibus unum!</l>
+               <l n="389"><lb/>Talthybius montes et silvas lustret opacas,</l>
+               <l n="390"><lb/>Occupet at portum Phoenix iuxtaque fluentem</l>
+               <l n="391"><lb/>Eurybates nigrae vestiget concava vallis!</l>
+               <l n="392"><lb/>Quisque sibi socios capito, si viribus uti</l>
+               <l n="393"><lb/>Forte velit: faciunt audaces saepe pericla</l>
+               <l n="394"><lb/>Ex timidis. Captum sed nodis stringite sicque</l>
+               <l n="395"><lb/>Nostros ante pedes huc vinctum adducite! Statis</l>
+               <l n="396"><lb/>Nunc etiam? Quin ite citi! Nos haud manet ille.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Nicostrata</speaker>
+               <l n="397"><lb/>Me penes hic, mea gnata, sede, singultibus atque</l>
+               <l n="398"><lb/>Parce! Dabit poenas, quas tu dare cunque iubebis.</l>
+               <l n="399"><lb/>At mihi, dum quaerunt sceleratum, exponito, nutrix,</l>
+               <l n="400"><lb/>Quo vultu aggressus vel quo sermone puellam</l>
+               <l n="401"><lb/>Et quid tu contra vel quid responderit illa</l>
+               <l n="402"><lb/>Inque fugam subito vis quae converterit ipsum!</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Clymene</speaker>
+               <l n="403"><lb/>Quae teneo, dicam. Nam consternatio multa</l>
+               <l n="404"><lb/>Eripuit subitusque timor mihi lumina tanquam</l>
+               <l n="405"><lb/>Obduxit nebula, vocem nec misit in aures,</l>
+               <l n="406"><lb/>Quanquam etiam nimium hoc, tamen hoc peiora paventi.</l>
+               <l n="407"><lb/>Lento equidem passu, vultu et, regina, sereno</l>
+               <l n="408"><lb/>Accessit secum, quae nescio, murmura volvens</l>
+               <l n="409"><lb/>Moxque nihil veritam complectens oscula fixit.</l>
+               <l n="410"><lb/>Infandum ut facinus vidi hoc, quae lenta sequebar,</l>
+               <l n="411"><lb/>Territa, suppetias dominae latura, trementes,</l>
+               <l n="412"><lb/>Quam possum, accelero passus. Mox fugit at ille,</l>
+               <pb n="21"/><!-- ab hier Interpunktion mit Leerzeichen -->
+               <cb n="1"/>
+               <l n="413"><lb/>– Secum expendit enim iam, quid peccasset, ineptus –</l>
+               <l n="414"><lb/>Exspectare timens – hoc quis credat ? – vetulam vir.</l>
+               <l n="415"><lb/>Usque adeo immutat mortales conscia magni</l>
+               <l n="416"><lb/>Mens sceleris, fiant timidi ex audacibus ut mox.</l>
+               <l n="417"><lb/>Post haec sum tali fugientem voce sequuta :</l>
+               <l n="418"><lb/>‘Quisquis es, impuro violasti qui decus ore</l>
+               <l n="419"><lb/>Reginae ? Quanquam silvas montisque fugaci</l>
+               <l n="420"><lb/>Cursu, insane, petas cervos et vincere possis</l>
+               <l n="421"><lb/>Et grassatores passu praecedere, poenam</l>
+               <l n="422"><lb/>Non tamen effugies. Sceleratum, crede, sequetur</l>
+               <l n="423"><lb/>Omni ea nempe loco. Prisca est sententia longas</l>
+               <l n="424"><lb/>Regibus esse manus.’ Inde his solabar alumnam :</l>
+               <l n="425"><lb/>‘Conquestum divae matris properemus ad ora !</l>
+               <l n="426"><lb/>Interea lacrimas cohibeto ! Videbis inultum</l>
+               <l n="427"><lb/>Haud fore. Persolvet meritas tibi sanguine poenas.’</l>
+               <l n="428"><lb/>Immemor haec inter pietatis non tamen illa,</l>
+               <l n="429"><lb/>Quod secum iussa est flores et serta referre,</l>
+               <l n="430"><lb/>“Collige” ait “gremio qui sparsi, en, undique flores,</l>
+               <l n="431"><lb/>Serta leva et, Clymene, delapsa quae modo fronti,</l>
+               <l n="432"><lb/>Ad matrem ergo, precor, vacuae non ut redeamus.”</l>
+               <l n="433"><lb/>Ast quia funestum pedibus contendere vidi,</l>
+               <l n="434"><lb/>Floribus obmissis et sertis ‘Protinus’ inquam</l>
+               <l n="435"><lb/>‘Praestat, alumna, tuam ad matrem properare, priusquam hic</l>
+               <l n="436"><lb/>Longius evadat non dignus luce diurna.’</l>
+               <l n="437"><lb/>Sed nunc monstrum hominis venit huc ! Quaeso, aspice, <milestone ana="hc:LineSegmentBeginning" n="2" rendition="hc:SelfAlignmentRight"/><metamark ana="hc:RunOverMark">[</metamark>num quis</l>
+               <l n="438"><lb/>In vultu pudor est aut ulla modestia frontis !</l>
+               <l n="439"><lb/>O, bene quam <!-- cod: quod --> vinctus, scelerata extendere possit</l>
+               <l n="440"><lb/>Bracchia ne, astrinxit tenerae paulo ante puellae</l>
+               <l n="441"><lb/>Colla quibus ! Voluere dei, mox ut caperetur,</l>
+               <l n="442"><lb/>Quippe etiam superis minima haud est cura pudoris.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Eurybates</speaker>
+               <l n="443"><lb/>En, tibi vinctus adest, rex inclite, quem voluisti !</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="444"><lb/>More, tuo facis, Eurybate. Nam semper in omni</l>
+               <l n="445"><lb/>Re celer esse soles et fortunatus ubique</l>
+               <l n="446"><lb/>Ante alios. Phoenix sed quid nunc Talthybiusque</l>
+               <l n="447"><lb/>Lenti non redeunt ? aut qua regione morantur ?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Eurybates</speaker>
+               <l n="448"><lb/>Quaerit adhuc, credo, quem nescit uterque repertum.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="449"><lb/>Reppereris tam mox sed tu mihi qua ratione,</l>
+               <l n="450"><lb/>Dic, in quove loco ! Mirum, ni forte rescisti,</l>
+               <l n="451"><lb/>Esset ubi prius, aut deus ut te duxerit illo.</l>
+            </sp>
+            <pb n="22"/>
+            <cb n="1"/>
+            <sp>
+               <speaker><lb/>Eurybates</speaker>
+               <l n="452"><lb/>Descendi in vallem, maiestas quam tua iussit</l>
+               <l n="453"><lb/>Indagare mihi. Hic tunc lassus forte sedebat</l>
+               <l n="454"><lb/>Propter aquae rivum sub ramis arboris altae,</l>
+               <l n="455"><lb/>Ardentem gelidoque sitim de fonte levabat.</l>
+               <l n="456"><lb/>Ut procul aspexi, cervinis passibus ipsum ad</l>
+               <l n="457"><lb/>Accurri comitesque mei nil segnius ire.</l>
+               <l n="458"><lb/>Inde, velut iussus, scelerato vincula collo</l>
+               <l n="459"><lb/>Inieci nodisque manus et bracchia strinxi</l>
+               <l n="460"><lb/>Impia, ne posset vim contra afferre scelestus.</l>
+               <l n="461"><lb/>En, astat ! Tua nunc faciat, quodcunque libebit,</l>
+               <l n="462"><lb/>Maiestas, meritisque rependet crimina poenis.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="463"><lb/>Dic age nec quicquam celaveris, omnia quin dic !</l>
+               <l n="464"><lb/>Qui furor iratum vel te quod numen adegit,</l>
+               <l n="465"><lb/>Ut nostram fueris ausus contingere natam ?</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Eutychus</speaker>
+               <l n="466"><lb/>Maximus ille furor, quo nullus maior in orbe est,</l>
+               <l n="467"><lb/>Et gravius cunctis facere hoc me numen adegit.</l>
+               <l n="468"><lb/>Ergo, magne, deo, precor, et, rex, parce furori !</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="469"><lb/>Insontes divos rabidum culpasque furorem.</l>
+               <l n="470"><lb/>Sed quur non potius tete ipsum, pessime, culpas,</l>
+               <l n="471"><lb/>Qui ratione animos sapiens non edomuisti ?</l>
+               <l n="472"><lb/>Quod proprium est hominis, non duci more ferarum</l>
+               <l n="473"><lb/>Atque furore rapi, sanguis quando aestuat intus !</l>
+               <l n="474"><lb/>Quur non tecum etiam meditatus, vane, futurum</l>
+               <l n="475"><lb/>Post hoc quid foret ? Ut melius tibi consuluisses !</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Eutychus</speaker>
+               <l n="476"><lb/>Et furere et sapere haud facile est in tempore eodem.</l>
+               <l n="477"><lb/>Nec tamen omne furor mihi mentis lumen ademit.</l>
+               <l n="478"><lb/>Praemeditatus enim sum et, si vis omnia nosse,</l>
+               <l n="479"><lb/>Quamprius aggrederer sacrum, rex inclite, corpus,</l>
+               <l n="480"><lb/>Dicam, quae tacita mecum sim mente loquutus.</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Charilaus</speaker>
+               <l n="481"><lb/>Dic age nec verbum addideris mihi perfidus ullum !</l>
+            </sp>
+            <sp>
+               <speaker><lb/>Eutychus</speaker>
+               <l n="482"><lb/>Si verbum addidero, me perdat Iuppiter et tu,</l>
+               <l n="483"><lb/>Cuius in arbitrio nunc est mea vitaque morsque.</l>
+               <l n="484"><lb/>Ut procul aspexi venientem, mox trepidare</l>
+               <l n="485"><lb/>In pectus mihi cor, sic ad me et protinus inquam :</l>
+               <l n="486"><lb/>‘En, optata diu et facies mihi carior ipso</l>
+               <l n="487"><lb/>Sole venit, cuius tenebras animoque repellit</l>
+               <l n="488"><lb/>Nubila cuncta meo, lux sidere clarior omni.</l>
+               <l n="489"><lb/>Aggrediarne audens an gressum, ut saepe, timore</l>
+               <pb n="23"/>
+               <cb n="1"/>
+               <l n="490"><lb/></l>
+               <l n="491"><lb/></l>
+               <l n="492"><lb/></l>
+               <l n="493"><lb/></l>
+               <l n="494"><lb/></l>
+               <l n="495"><lb/></l>
+               <l n="496"><lb/></l>
+               <l n="497"><lb/></l>
+               <l n="498"><lb/></l>
+               <l n="499"><lb/></l>
+               <l n="500"><lb/></l>
+            </sp>
+                     
+            
+            
+            
+            
+            
+            <l n="501"/>
+            <l n="502"/>
+            <l n="503"/>
+            <l n="504"/>
+            <l n="505"/>
+            <l n="506"/>
+            <l n="507"/>
+            <l n="508"/>
+            <l n="509"/>
+            <l n="510"/>
+            <l n="511"/>
+            <l n="512"/>
+            <l n="513"/>
+            <l n="514"/>
+            <l n="515"/>
+            <l n="516"/>
+            <l n="517"/>
+            <l n="518"/>
+            <l n="519"/>
+            <l n="520"/>
+            <l n="521"/>
+            <l n="522"/>
+            <l n="523"/>
+            <l n="524"/>
+            <l n="525"/>
+            <l n="526"/>
+            <l n="527"/>
+            <l n="528"/>
+            <l n="529"/>
+            <l n="530"/>
+            <l n="531"/>
+            <l n="532"/>
+            <l n="533"/>
+            <l n="534"/>
+            <l n="535"/>
+            <l n="536"/>
+            <l n="537"/>
+            <l n="538"/>
+            <l n="539"/>
+            <l n="540"/>
+            <l n="541"/>
+            <l n="542"/>
+            <l n="543"/>
+            <l n="544"/>
+            <l n="545"/>
+            <l n="546"/>
+            <l n="547"/>
+            <l n="548"/>
+            <l n="549"/>
+            <l n="550"/>
+            <l n="551"/>
+            <l n="552"/>
+            <l n="553"/>
+            <l n="554"/>
+            <l n="555"/>
+            <l n="556"/>
+            <l n="557"/>
+            <l n="558"/>
+            <l n="559"/>
+            <l n="560"/>
+            <l n="561"/>
+            <l n="562"/>
+            <l n="563"/>
+            <l n="564"/>
+            <l n="565"/>
+            <l n="566"/>
+            <l n="567"/>
+            <l n="568"/>
+            <l n="569"/>
+            <l n="570"/>
+            <l n="571"/>
+            <l n="572"/>
+            <l n="573"/>
+            <l n="574"/>
+            <l n="575"/>
+            <l n="576"/>
+            <l n="577"/>
+            <l n="578"/>
+            <l n="579"/>
+            <l n="580"/>
+            <l n="581"/>
+            <l n="582"/>
+            <l n="583"/>
+            <l n="584"/>
+            <l n="585"/>
+            <l n="586"/>
+            <l n="587"/>
+            <l n="588"/>
+            <l n="589"/>
+            <l n="590"/>
+            <l n="591"/>
+            <l n="592"/>
+            <l n="593"/>
+            <l n="594"/>
+            <l n="595"/>
+            <l n="596"/>
+            <l n="597"/>
+            <l n="598"/>
+            <l n="599"/>
+            <l n="600"/>
+            <l n="601"/>
+            <l n="602"/>
+            <l n="603"/>
+            <l n="604"/>
+            <l n="605"/>
+            <l n="606"/>
+            <l n="607"/>
+            <l n="608"/>
+            <l n="609"/>
+            <l n="610"/>
+            <l n="611"/>
+            <l n="612"/>
+            <l n="613"/>
+            <l n="614"/>
+            <l n="615"/>
+            <l n="616"/>
+            <l n="617"/>
+            <l n="618"/>
+            <l n="619"/>
+            <l n="620"/>
+            <l n="621"/>
+            <l n="622"/>
+            <l n="623"/>
+            <l n="624"/>
+            <l n="625"/>
+            <l n="626"/>
+            <l n="627"/>
+            <l n="628"/>
+            <l n="629"/>
+            <l n="630"/>
+            <l n="631"/>
+            <l n="632"/>
+            <l n="633"/>
+            <l n="634"/>
+            <l n="635"/>
+            <l n="636"/>
+            <l n="637"/>
+            <l n="638"/>
+            <l n="639"/>
+            <l n="640"/>
+            <l n="641"/>
+            <l n="642"/>
+            <l n="643"/>
+            <l n="644"/>
+            <l n="645"/>
+            <l n="646"/>
+            <l n="647"/>
+            <l n="648"/>
+            <l n="649"/>
+            <l n="650"/>
+            <l n="651"/>
+            <l n="652"/>
+            <l n="653"/>
+            <l n="654"/>
+            <l n="655"/>
+            <l n="656"/>
+            <l n="657"/>
+            <l n="658"/>
+            <l n="659"/>
+            <l n="660"/>
+            <l n="661"/>
+            <l n="662"/>
+            <l n="663"/>
+            <l n="664"/>
+            <l n="665"/>
+            <l n="666"/>
+            <l n="667"/>
+            <l n="668"/>
+            <l n="669"/>
+            <l n="670"/>
+            <l n="671"/>
+            <l n="672"/>
+            <l n="673"/>
+            <l n="674"/>
+            <l n="675"/>
+            <l n="676"/>
+            <l n="677"/>
+            <l n="678"/>
+            <l n="679"/>
+            <l n="680"/>
+            <l n="681"/>
+            <l n="682"/>
+            <l n="683"/>
+            <l n="684"/>
+            <l n="685"/>
+            <l n="686"/>
+            <l n="687"/>
+            <l n="688"/>
+            <l n="689"/>
+            <l n="690"/>
+            <l n="691"/>
+            <l n="692"/>
+            <l n="693"/>
+            <l n="694"/>
+            <l n="695"/>
+            <l n="696"/>
+            <l n="697"/>
+            <l n="698"/>
+            <l n="699"/>
+            <l n="700"/>
+            <l n="701"/>
+            <l n="702"/>
+            <l n="703"/>
+            <l n="704"/>
+            <l n="705"/>
+            <l n="706"/>
+            <l n="707"/>
+            <l n="708"/>
+            <l n="709"/>
+            <l n="710"/>
+            <l n="711"/>
+            <l n="712"/>
+            <l n="713"/>
+            <l n="714"/>
+            <l n="715"/>
+            <l n="716"/>
+            <l n="717"/>
+            <l n="718"/>
+            <l n="719"/>
+            <l n="720"/>
+            <l n="721"/>
+            <l n="722"/>
+            <l n="723"/>
+            <l n="724"/>
+            <l n="725"/>
+            <l n="726"/>
+            <l n="727"/>
+            <l n="728"/>
+            <l n="729"/>
+            <l n="730"/>
+            <l n="731"/>
+            <l n="732"/>
+            <l n="733"/>
+            <l n="734"/>
+            <l n="735"/>
+            <l n="736"/>
+            <l n="737"/>
+            <l n="738"/>
+            <l n="739"/>
+            <l n="740"/>
+            <l n="741"/>
+            <l n="742"/>
+            <l n="743"/>
+            <l n="744"/>
+            <l n="745"/>
+            <l n="746"/>
+            <l n="747"/>
+            <l n="748"/>
+            <l n="749"/>
+            <l n="750"/>
+            <l n="751"/>
+            <l n="752"/>
+            <l n="753"/>
+            <l n="754"/>
+            <l n="755"/>
+            <l n="756"/>
+            <l n="757"/>
+            <l n="758"/>
+            <l n="759"/>
+            <l n="760"/>
+            <l n="761"/>
+            <l n="762"/>
+            <l n="763"/>
+            <l n="764"/>
+            <l n="765"/>
+            <l n="766"/>
+            <l n="767"/>
+            <l n="768"/>
+            <l n="769"/>
+            <l n="770"/>
+            <l n="771"/>
+            <l n="772"/>
+            <l n="773"/>
+            <l n="774"/>
+            <l n="775"/>
+            <l n="776"/>
+            <l n="777"/>
+            <l n="778"/>
+            <l n="779"/>
+            <l n="780"/>
+            <l n="781"/>
+            <l n="782"/>
+            <l n="783"/>
+            <l n="784"/>
+            <l n="785"/>
+            <l n="786"/>
+            <l n="787"/>
+            <l n="788"/>
+            <l n="789"/>
+            <l n="790"/>
+            <l n="791"/>
+            <l n="792"/>
+            <l n="793"/>
+            <l n="794"/>
+            <l n="795"/>
+            <l n="796"/>
+            <l n="797"/>
+            <l n="798"/>
+            <l n="799"/>
+            <l n="800"/>
+            <l n="801"/>
+            <l n="802"/>
+            <l n="803"/>
+            <l n="804"/>
+            <l n="805"/>
+            <l n="806"/>
+            <l n="807"/>
+            <l n="808"/>
+            <l n="809"/>
+            <l n="810"/>
+            <l n="811"/>
+            <l n="812"/>
+            <l n="813"/>
+            <l n="814"/>
+            <l n="815"/>
+            <l n="816"/>
+            <l n="817"/>
+            <l n="818"/>
+            <l n="819"/>
+            <l n="820"/>
+            <l n="821"/>
+            <l n="822"/>
+            <l n="823"/>
+            <l n="824"/>
+            <l n="825"/>
+            <l n="826"/>
+            <l n="827"/>
+            <l n="828"/>
+            <l n="829"/>
+            <l n="830"/>
+            <l n="831"/>
+            <l n="832"/>
+            <l n="833"/>
+            <l n="834"/>
+            <l n="835"/>
+            <l n="836"/>
+            <l n="837"/>
+            <l n="838"/>
+            <l n="839"/>
+            <l n="840"/>
+            <l n="841"/>
+            <l n="842"/>
+            <l n="843"/>
+            <l n="844"/>
+            <l n="845"/>
+            <l n="846"/>
+            <l n="847"/>
+            <l n="848"/>
+            <l n="849"/>
+            <l n="850"/>
+            <l n="851"/>
+         </div>
+      </body>
+   </text>
+</TEI>

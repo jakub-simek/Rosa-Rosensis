@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rosa Rosensis </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listAnnotation ana="hc:SimiliaNoteList">
+         <note target="latin:range(w_323_3 w_324_1)">
+            <label><mentioned><ptr target="w_323_3"/> … <ptr target="w_324_1"/></mentioned></label>
+            <cit>
+               <bibl>
+                  <ptr ana="hc:BibliographicRecordPointer" target="vergil_aen"/>
+                  <biblScope></biblScope>
+               </bibl>              
+               <quote>insignem pietate virum</quote>
+            </cit>
+            <ptr />
+         </note>
+      </listAnnotation>
+   </standOff>
+   
+      
+   
+</TEI>
